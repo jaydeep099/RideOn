@@ -30,7 +30,7 @@ const CaptainSignup = () => {
   return (
     <div className='py-5 px-5 h-screen flex flex-col justify-between'>
         <div>
-        <img className='w-20 mb-3' src="https://www.svgrepo.com/show/505031/uber-driver.svg" alt="" />
+        <h1 className='w-20 mb-6 text-3xl'>RideOn</h1>
 
           <form onSubmit={(e) => {
             submitHandler(e)
@@ -86,7 +86,7 @@ const CaptainSignup = () => {
 
             <button
               className='bg-[#111] text-white font-semibold mb-3 rounded-lg px-4 py-2 w-full text-lg placeholder:text-base'
-            >Login</button>
+            >SignUp</button>
 
           </form>
           <p className='text-center'>Already have a account? <Link to='/captain-login' className='text-blue-600'>Login here</Link></p>
