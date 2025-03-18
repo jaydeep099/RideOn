@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
-import { CaptainDataContext } from '../context/CaptainContext'
+import { CaptainDataContext } from '../context/CapatainContext'
 
 const Captainlogin = () => {
 
@@ -38,7 +38,7 @@ const Captainlogin = () => {
   return (
     <div className='p-7 h-screen flex flex-col justify-between'>
       <div>
-        <h1 className='w-20 mb-12 text-3xl'>RideOn</h1>
+        <h1 className='w-20 mb-12 text-4xl'>RideOn</h1>
 
         <form onSubmit={(e) => {
           submitHandler(e)
